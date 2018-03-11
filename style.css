@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+.navbar span {
+    color: yellowgreen;
+    font-size: 40px;
+}
+
+.text-yellowgreen{
+    color: yellowgreen;
+}
+
+.bgimage {
+  width:100%;
+  min-height:800px;
+  background: linear-gradient(
+    rgba(0,0,0,.9), 
+    rgba(0,0,0,.3)), 
+     url('3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+hr{
+    background-color:yellowgreen;
+}
+
+
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #f4cb42;
+}
+
+
+
+.navbar {
+ background:transparent;
+ border-color:transparent;
+  }
+
+.show-on-hover:hover > div.dropdown-menu {
+    display: block;    
+}
+
+.booking-bg{
+    background-color: rgba(255,255,255,.7)
+}
+
+
+
+.bg-YellowGreen {
+    background-color: YellowGreen;
+}
